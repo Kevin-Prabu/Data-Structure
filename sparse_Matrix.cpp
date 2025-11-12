@@ -24,7 +24,6 @@ int main(){
             cout<<matrix[a][b]<<" ";
             if(matrix[a][b] == 0){
                 zero++;
-                cout<<"\nThe location of 0 is "<<matrix[x][y];
             }
             else{
                 nonzero++;
@@ -35,4 +34,5 @@ int main(){
 
     cout<<"The amount of zero numbers are: "<<zero<<endl;
     cout<<"The amount of non-zero numbers are: "<<nonzero;
+
 }
